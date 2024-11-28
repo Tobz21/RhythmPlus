@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+	background-color: rgb(0,0,0);
+}
+QPushButton {
+	color: white ; 
+	background-color:rgb(0,0,0);
+	border: 1px solid;
+	border-color: #ffffff
+}
+QLabel {
+	color: white ; 
+	background-color:rgb(0,0,0);
+	border: 1px solid;
+	border-color: #ffffff
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="buttonEplayer">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>280</y>
+      <width>141</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Existing Player</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonNewP">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>280</y>
+      <width>141</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Player</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonGuest">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>280</y>
+      <width>141</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Guest</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="notice1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>551</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> To clarify your saved data for use, you can:
+ -Log in as a guest: your scores will not be saved and as a result, no skill calculations can be performed 
+ -Log in as an existing player: If you have an existing player save 
+ -Log in as a new player: If you do not have an existing player save</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
